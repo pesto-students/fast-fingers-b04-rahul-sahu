@@ -1,10 +1,9 @@
 import React from 'react';
-import {Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './PlayerInfo.css';
 
-import iconPerson from './../img/icon-person.png';
-import iconGamepad from './../img/icon-gamepad.png';
+import iconPerson from './../../img/icon-person.png';
+import iconGamepad from './../../img/icon-gamepad.png';
 
 
 class PlayerInfo extends React.Component {

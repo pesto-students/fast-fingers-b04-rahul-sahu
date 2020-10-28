@@ -1,10 +1,13 @@
 .App {
-  text-align: center;
+  color: #ff5155;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.start-page{
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -53,4 +56,20 @@
   /* position: relative;
   top: 133px;
   text-align: center; */
+}
+
+.keyboard-icon{
+  padding-top: 60px;
+}
+.game-header{
+  padding-top: 20px;
+  color : #ff5155;
+}
+.game-sub-header{
+  color: #ff5155;
+}
+.input-form{
+  width: 620px;
+  margin: 0 auto;
+  font-size: 35px;
 }

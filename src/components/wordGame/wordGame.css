@@ -1,0 +1,84 @@
+.game-page-header{
+    color: #ff5155;
+    padding-top: 20px;
+    font-size: 34px;
+}
+.player-info-wrapper{
+    display: inline-block;
+    width: 50%;
+}
+.score-info-wrapper{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.game-box{
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+.game-word{
+    padding-top: 10px;
+    text-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+    font-size: 64px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.game-input-word{
+    width: 540px;
+    height: 64px;
+    opacity: 0.59;
+    border-radius: 15px;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.8);
+    background-color: #ffffff;
+    font-size: 64px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+}
+.base-timer {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Removes SVG styling that would hide the time label */
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  /* The SVG path that displays the timer's progress */
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+  }
+
+  .base-timer__label {
+    position: absolute;
+    
+    /* Size should match the parent container */
+    width: 300px;
+    height: 300px;
+    
+    /* Keep the label aligned to the top */
+    top: 0;
+    
+    /* Create a flexible box that centers content vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* Sort of an arbitrary number; adjust to your liking */
+    font-size: 48px;
+  }
