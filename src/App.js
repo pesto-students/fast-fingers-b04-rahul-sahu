@@ -2,7 +2,7 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Container, Row, Col, Form, Button} from 'react-bootstrap';
+import { Container, Form, Button} from 'react-bootstrap';
 import keyboardIcon from './img/keyboard-icon.png';
 
 import WordGame from './components/wordGame/wordGame';
