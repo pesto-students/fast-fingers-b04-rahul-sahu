@@ -1,0 +1,16 @@
+.icon-person{
+    width: 40.7px;
+    height: 32.7px;
+    object-fit: contain;
+    display: inline;
+  }
+  
+.icon-gamepad{
+    width: 44.7px;
+    height: 22.3px;
+    object-fit: contain;
+    display: inline;
+  }
+.player-info-name{
+    display: inline;
+}
