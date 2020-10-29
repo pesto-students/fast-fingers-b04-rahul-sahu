@@ -13,10 +13,18 @@
     text-align: right;
 }
 
+.score-board{
+  height: 400px;
+  border: 2px solid #ff5155;
+  position: relative;
+  border-radius: 15px;
+  top: 40px;
+}
 .game-box{
     text-align: center;
     position: relative;
     top: -20px;
+    left: -60px;
 }
 
 .game-word{
@@ -51,6 +59,15 @@
     width: 300px;
     margin: 0 auto;
   }
+
+.over-score-display{
+  color: #ff5155;
+  font-size: 28px;
+}
+
+.retry, .quit{
+  font-size: 20px;
+}
   
   /* Removes SVG styling that would hide the time label */
   .base-timer__circle {

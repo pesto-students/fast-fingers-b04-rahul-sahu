@@ -29,6 +29,13 @@ class App extends React.Component {
     this.setState({level : level});
   }
 
+  handleQuitGame = () => {
+    this.setState({
+      startPage : true,
+      gamePage : false
+    })
+  }
+
   startGame = () => {
     if(this.state.name === ''){
       alert("Please enter the name")
@@ -78,6 +85,7 @@ class App extends React.Component {
             <WordGame
               name = {this.state.name}
               level = {this.state.level}
+              quitGame = {this.handleQuitGame}
             />
             }
           </Container>
